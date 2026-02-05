@@ -32,13 +32,13 @@ It is designed as a learning environment to support my growth toward roles like 
 -Evidence of curiosity, initiative, and technical growth
 
 ## Roadmap Phases:
-Phase 0: Repo setup & planning
-Phase 1: VM creation & Ubuntu installation
-Phase 2: First boot & server updates
-Phase 3: Reinstalling the system
-Phase 4: Network Testing and Hardening
-Phase 5: Installing Docker
-Phase 6: TBD...
+-Phase 0: Repo setup & planning
+-Phase 1: VM creation & Ubuntu installation
+-Phase 2: First boot & server updates
+-Phase 3: Reinstalling the system
+-Phase 4: Network Testing and Hardening
+-Phase 5: Installing Docker
+-Phase 6: TBD...
 
 
 
