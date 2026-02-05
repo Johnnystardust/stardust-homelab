@@ -1,0 +1,38 @@
+# Step 5: Installing Docker!
+
+The time has come at last. I have turned off my VM and turned it back on to let any package updates fully process.
+
+In order to install Docker, I am going to need three tools
+
+ca-certificates - to enable HTTPS downloads
+curl - to download files from URLS
+and gnupg to verify digital signatures. 
+
+I attempted to install ca-certificates, curl, and gnupg to prepare for the Docker installation. 
+The system confirmed these packages were already present and up-to-date. 
+This verifies that the system is already capable of handling secure downloads and verifying digital signatures via GPG.
+
+## making the download secure
+
+I am going to be running a series of commands that, one by one, will ensure that my download is from a legitimate source
+
+### First)
+sudo install -m 0755 -d /etc/apt/keyrings
+
+**purpose** With this, I am creating a directory at the Ubuntu standard location to store keys. I am also setting
+permissions so that apt can read what is inside of my folder, and verify that the keys match. Here I am going to
+directly save the key from Docker to ensure that everything I download is actually from them and not from a possibly malicious third party.
+
+
+### second)
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+With this command, I am going to download their GPG key directly from their website at the given URL.
+I will make the download -fail silently, -s not show a progress bar, -Show me an error if it fails, and -Location if it has changed, 
+to automatically follow where it changed.
+
+In the same command, I am also immediately passing the output from the command on the left
+over to the command on the right with the | symbol
+
+With the command on the right, with dearmor, I am taking the key from a human-readableformat, into binary, because that is what apt prefers.
+
+And I am telling the system to store the key into the desired location
