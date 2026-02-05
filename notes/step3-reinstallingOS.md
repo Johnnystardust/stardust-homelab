@@ -1,4 +1,4 @@
-#I had to reinstall the OS
+# I had to reinstall the OS
 Despite being able to get to the homescreen of the OS, I could not get the server to connect to the internet.
 I had to delete the virtual machine and all its data, and reinstall the OS. 
 After reinstalling the OS, I was able to get the VM to connect to the internet! 
