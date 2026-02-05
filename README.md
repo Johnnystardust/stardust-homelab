@@ -36,25 +36,20 @@ Preparing for **Phase 5 — Docker Installation**
 -A visible learning journey for recruiters
 -Evidence of curiosity, initiative, and technical growth
 
-##Roadmap Phases:
+## Roadmap Phases:
 Phase 0: Repo setup & planning
 Phase 1: VM creation & Ubuntu installation
 Phase 2: First boot & server updates
-Phase 3: System Update
-Phase 4: Docker installation & container testing
-Phase 5: Networking & service hosting
-Phase 6: Automation + monitoring
--Practice IT administration (user management, updates, packages)
--Install and configure Docker
--Deploy and manage containerized services
--Explore networking fundamentals
--Document progress using Markdown, Git, and versioned screenshots
--Improve documentation, version control, and reproducibility
+Phase 3: Reinstalling the system
+Phase 4: Network Testing and Hardening
+Phase 5: Installing Docker
+Phase 6: TBD...
+
 
 
 ## Status 
-Phase 0 — Planning & Repository Setup
-(Currently installing Ubuntu Server in VirtualBox)
+Phase 5 — Installing Docker
+(Currently installing Curl, ca-certificates, and gnupg)
 
 ## Why This Project?
 
