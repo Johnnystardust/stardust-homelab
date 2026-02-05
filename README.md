@@ -21,11 +21,6 @@ It is designed as a learning environment to support my growth toward roles like 
 - Build a professional, reproducible technical portfolio  
 
 
-## Status 
-**Phase 4 — System Updates & Basic Hardening Completed**  
-Preparing for **Phase 5 — Docker Installation**
-
-
 ## Why This Project?
 
 **Building this home lab gives me:****
@@ -50,22 +45,3 @@ Phase 6: TBD...
 ## Status 
 Phase 5 — Installing Docker
 (Currently installing Curl, ca-certificates, and gnupg)
-
-## Why This Project?
-
-**Building this home lab gives me:****
-
--Practical, hands‑on IT experience
--Confidence with Linux, virtualization, networking, and Docker
--Strong documentation discipline
--A visible learning journey for recruiters
--Evidence of curiosity, initiative, and technical growth
-
-##Roadmap Phases:
-Phase 0: Repo setup & planning
-Phase 1: VM creation & Ubuntu installation
-Phase 2: First boot
-Phase 3: System Update
-Phase 4: Setting up Firewall
-Phase 5: Docker Installation
-Phase 6 and on: will document once ready.
