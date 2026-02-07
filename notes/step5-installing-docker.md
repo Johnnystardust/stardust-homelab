@@ -12,7 +12,7 @@ Docker installation on Ubuntu requires three key tools:
 When I attempted to install these prerequisites, Ubuntu reported that all three were **already installed and up to date**.  
 This confirms that my system is fully capable of handling secure downloads and validating signatures before installing Docker.
 
----
+![installation ready](/images/step5-hello-world.png)
 
 ##  Step 5.1 — Making the Docker Installation Secure
 
@@ -130,4 +130,4 @@ This confirms:
 - Networking works correctly
 - ARM64 container support is functional
 
-
+![hello-world](/images/step5-hello-world.png)
