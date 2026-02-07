@@ -1,54 +1,67 @@
 # stardust-homelab
-This repository documents my ongoing IT home lab project, built to strengthen my skills in system administration, virtualization, networking, secure configuration, and containerized workloads.
-This is built on an Ubuntu ARM virtual machine running inside VirtualBox on an Apple M2 system.
-It is designed as a learning environment to support my growth toward roles like IT support, cybersecurity, and the Lockheed Martin CWEP program.
+This repository documents my ongoing IT home lab project, built to strengthen my skills in system administration, virtualization, networking, secure configuration, and containerized workloads.  
+It runs on an Ubuntu 24.04 ARM virtual machine inside Oracle VirtualBox on an Apple M2 system.
 
-## Project Goals:
--Learn virtualization using Oracle VirtualBox
+This lab is designed as a professional learning environment to support my growth toward IT support, cybersecurity, cloud fundamentals, and competitive early career programs such as the Lockheed Martin CWEP program.
 
-# stardust-homelab
-This repository documents my ongoing IT home lab project, built to strengthen my skills in system administration, virtualization, networking, secure configuration, and containerized workloads.
-This is built on an Ubuntu ARM virtual machine running inside VirtualBox on an Apple M2 system.
-It is designed as a learning environment to support my growth toward roles like IT support, cybersecurity, and the Lockheed Martin CWEP program.
+---
 
-## Project Goals:
-- Learn virtualization using Oracle VirtualBox
+## 🚀 Project Goals
+- Learn core virtualization concepts using Oracle VirtualBox  
 - Install and configure a Linux VM (Ubuntu 24.04 ARM)  
-- Practice IT administration (user management, updates, packages)
-- Install and configure Docker
-- Deploy and manage containerized services
-- Explore networking fundamentals
-- Document progress using Markdown, Git, and versioned screenshots
-- Build a professional, reproducible technical portfolio  
+- Build confidence with Linux administration (updates, packages, services)  
+- Install and configure Docker on ARM  
+- Deploy and manage containerized applications  
+- Explore networking and secure configuration fundamentals  
+- Practice structured troubleshooting and documentation  
+- Build a professional, reproducible technical portfolio with GitHub
 
+---
 
-## Why This Project?
+## 🎯 Why This Project Matters
+Building this home lab provides:
 
-**Building this home lab gives me:****
+- Hands‑on experience with real IT tooling  
+- Confidence working with Linux, networking, and containers  
+- A strong documentation workflow using Markdown + screenshots  
+- Demonstration of initiative, curiosity, and problem‑solving  
+- A well-structured technical project for recruiters and technical interviews  
+- Practical skills aligned with modern IT workflows and CWEP expectations  
 
--Practical, hands‑on IT experience
--Confidence with Linux, virtualization, networking, and Docker
--Strong documentation discipline
--A visible learning journey for recruiters
--Evidence of curiosity, initiative, and technical growth
+---
 
-## Roadmap Phases:
-- Phase 0: Repo setup & planning
+## 📅 Roadmap Phases
+- **Phase 0:** Repository setup & project planning  
+- **Phase 1:** VM creation & Ubuntu installation  
+- **Phase 2:** First boot, system updates, health checks  
+- **Phase 3:** Reinstallation to troubleshoot ARM/VirtualBox networking issues  
+- **Phase 4:** Network testing & basic system hardening (UFW, system status)  
+- **Phase 5:** Installing Docker (including troubleshooting ARM repo issues)  
+- **Phase 6:** Docker fundamentals (running containers, logs, lifecycle)  
+- **Phase 7:** Docker Compose introduction  
+- **Phase 8:** SSH setup & remote administration  
+- **Phase 9:** Git integration inside the VM  
+- **Phase 10+:** User management, services, permissions, logging, scripting  
 
-- Phase 1: VM creation & Ubuntu installation
+---
 
-- Phase 2: First boot & server updates
+## 📌 Current Status
+**Phase 5 — Docker installation completed.**
 
-- Phase 3: Reinstalling the system
+Docker is successfully installed on Ubuntu ARM using the `docker.io` package after troubleshooting architecture‑specific repository issues.  
+Preparing for **Phase 6: Docker fundamentals**, where the first real container will be deployed and managed.
 
-- Phase 4: Network Testing and Hardening
+---
 
-- Phase 5: Installing Docker
+## 📂 Repository Structure
 
-- Phase 6: TBD...
+/images     → Screenshots for documentation
+/notes      → In‑depth step‑by‑step technical notes
+README.md   → Project overview and roadmap
 
+---
 
-
-## Status 
-Phase 5 — Installing Docker
-(Currently installing Curl, ca-certificates, and gnupg)
+## 🧭 Next Steps
+- Begin Phase 6: Run first containers, practice lifecycle commands, document behavior
+- Continue documenting using Markdown + screenshots
+- Maintain professional repo organization throughout the project
