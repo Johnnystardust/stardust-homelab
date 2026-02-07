@@ -94,7 +94,7 @@ This is a known issue in the ARM64 community due to:
 - ARM64 virtualization still maturing on Apple Silicon
 I verified the issue multiple times — the repository simply cannot be used from my environment.
 
-### 🛠️ Step 5.4 — Manual Intervention
+## Step 5.4 — Manual Intervention
 Because the automatic creation of docker.list failed in VirtualBox,
 I manually created the file:
 sudo nano /etc/apt/sources.list.d/docker.list
